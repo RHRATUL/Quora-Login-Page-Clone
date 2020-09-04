@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+  background-image: url(./img/qoura.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content{
+
+    width: 650px;
+    height: 500px;
+    background: white;
+    margin: auto;
+    margin-top: 40px;
+ 
+}
+
+.content h3{
+    text-align: center;
+    font-weight: 300;
+
+    
+}
+
+.content h4{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    font-weight: 700;
+   
+}
+
+#img{
+    margin-left: 100px;
+}
+
+.content p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.left{
+width: 46%;
+height: 300px;
+float: left;
+
+margin: 10px;
+border-right: 1px solid black;
+
+}
+.right{
+    width: 46%;
+    height: 300px;
+    float: left;
+    
+    margin: 10px;
+ text-align: justify;
+}
+
+.btn1{
+
+padding: 10px;
+margin: 10px;
+width: 272px;
+height: 60px;
+background: #df4930;
+border: none;
+cursor: pointer;
+}
+
+.btn1 a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.btn2{
+    padding: 10px;
+    margin: 10px;
+    width: 272px;
+height: 60px;
+background: #507cc0;
+border: none;
+cursor: pointer;
+}
+
+.btn2 a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.left-con p{
+    text-align: justify;
+    margin: 10px;
+   font-size: 15px;
+}
+
+span a{
+    text-decoration: none;
+    color: #507cc0 ;
+}
+
+
+
+.rightcon{
+
+    margin: 10px;
+   
+}
+
+.rightcon input{
+
+    margin: 10px;
+    padding: 10px;
+    width: 260px;
+    height: 35px;
+    
+
+}
+
+.rightcon button{
+    padding: 5px;
+    width: 50px;
+    background: #507cc0;
+    border: none;
+   
+}
+
+.rightcon button a{
+    text-decoration: none;
+color: white;
+}
+
+.rightcon span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.foot{
+    display: inline;
+  border-top: 1px solid black;
+
+   
+}
+
+.foot a{
+
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    
+}
